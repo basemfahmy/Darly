@@ -1,0 +1,293 @@
+/*my framework*/
+body{font-family: 'Rubik', sans-serif;}
+.container { max-width: 1200px;}
+h1,h2,h3,h4,h5{text-transform: capitalize; }
+h2{font-size: 30px;font-weight: bold}
+h3{font-size: 25px;}
+p{font-size: 16px;color: #9D9D9D}
+.main-box{text-align: center; padding: 65px 0px 65px 0px}
+.main-box h2{margin-bottom: 50px}
+.my-button{
+    color: white;
+    text-transform: capitalize;
+    padding: 13px 25px 13px 25px;
+    border-radius: 7px;
+    outline: none
+}
+.my-button:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
+button:focus{outline: none}
+/*my framework*/
+
+/*navbar*/
+
+.bg-light {
+    background-color: white !important;
+    padding: 12px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;    
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 2px 0px 0px 0px rgba(0, 0, 0, 0.19)
+}
+.navbar-light .navbar-brand {
+    text-transform: uppercase;
+    font-size: 30px; 
+    font-weight: bold;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link {
+   color: #9D9D9D;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-left: 14px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+transition: all 0.3s ease;    
+}
+.navbar-light .navbar-nav .nav-link:focus{color: #9D9D9D}
+.bg-light .ml-auto{  margin-right: 105px;}
+.navbar-light .navbar-toggler i{font-size:25px}
+/*navbar*/
+
+/* start go-up button */
+.go-up{ 
+    position: fixed;
+    bottom: 45px;
+    padding: 10px 15px 10px 15px;
+    right: 20px;
+    color: white;
+    border-radius: 7px;
+    display: none;
+    z-index: 222;
+}
+/* start go-up button */
+
+/*header*/
+.header{
+background-color: #f7f8fc;
+height: 560px;
+padding-top: 70px    
+}
+.header .info{padding-top: 110px;}
+.header .image img{
+    width: 60%; 
+    margin-left: 120px;
+    padding-top: 110px;
+}
+.header .info  h2{
+    margin: -10px 0px 10px 0px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.header .info p {text-transform: capitalize}
+.header .info .my-button{ 
+    position: relative;
+    top: 30px; 
+    margin-right: 15px;
+}
+.header .info .button-two{
+    text-decoration: none;
+    background-color:transparent;
+    transition: all 0.3s ease;
+    padding: 13px 25px 13px 25px;
+}
+.header .info .button-two:hover{
+    color: white;
+    text-transform: capitalize;
+    border-radius: 7px;
+}
+/*header*/
+
+/*services*/
+.services .item{ 
+padding: 30px;
+border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19); 
+}
+.services .item:hover {
+    color: white;
+    transition: all 0.3s ease
+}
+.services .item-second {
+    color: white
+}
+.services .item-second:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19); 
+    transition: all 0.3s ease
+} 
+.services .item i{font-size: 25px; margin-bottom: 20px}
+/*services*/
+
+/*about*/
+.about{background-color: #f7f8fc;}
+.about .image img{  width: 47%; margin-top: 45px;}
+.about .info{text-align: left}
+.about .info h2{ margin-bottom: 25px;}
+.about .info p{line-height: 27px;}
+.about .info h3{font-size:17px; margin: 6px 0px 16px 0px; font-weight: bold}
+.about .info .icons a{color: #9D9D9D}
+.about .info .icons a i{  
+    background-color: transparent;
+    border: 1px solid #9D9D9D;
+    color: #9D9D9D;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: 10px;     
+} 
+.about .info .icons a i.fa-facebook-f {padding: 10px 14px 10px 14px;}/*only facebook icon*/
+.about .info .icons a i:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19); 
+    transition: all 0.3s ease;
+    color: white;
+}
+/*about*/
+
+/*portfolio*/
+.portfolio .buttons{margin-bottom: 50px}
+.portfolio .buttons button{
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 13px 25px 13px 25px;
+    border-radius: 7px;
+    margin-right: 20px;
+    outline: none;
+}
+.portfolio .buttons button:hover{
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19);  
+}
+.portfolio .buttons .seo , .portfolio .buttons .all {padding: 13px 40px 13px 40px} /*for all- seo only*/
+.portfolio .buttons .my-button /* for button all only*/
+{ color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19);  
+}
+.portfolio .item {
+    text-align: left; 
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    cursor: pointer;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19);  
+}
+.portfolio .item .info {padding: 22px 20px 15px 20px;position :relative}
+.portfolio .item .info h3{font-size: 19px}
+.portfolio .item .info a{text-decoration: none}
+.portfolio .item .info .my-button{   
+    float: right;
+    margin-top: -69px;
+    margin-right: 15px;
+}
+.portfolio .item img{width: 100%}
+/*portfolio*/
+
+/*testimonials*/
+.testimonials { background-color: #f7f8fc;  padding-bottom: 220px;}
+.testimonials  i{
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+.testimonials .info h3{ margin-top: 20px;}
+.testimonials .info p{
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+}
+.testimonials .carousel-indicators {top: 190px;}
+.testimonials .carousel-indicators li {
+    background-color:transparent;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 40px; 
+}
+.testimonials .carousel-indicators li.active{
+    transform: scale(1.2,1.2);
+    transition: all 0.3s ease;
+   
+}
+.testimonials .carousel-indicators li.active img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testimonials .carousel-indicators li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testimonials .carousel-control-prev, .testimonials .carousel-control-next
+{display: none}
+/*testimonials*/
+
+/*statistics*/
+.statistics .item {text-align: center}
+.statistics .item i{ font-size: 50px}
+.statistics .item .purecounter{ 
+    font-weight: bold; 
+    font-size: 40px;  
+    padding: 15px 0px 5px 0px;
+}
+.statistics .item  p{
+    font-size: 20px; 
+    text-transform: capitalize;
+}
+/*statistics*/
+
+/* blog */
+.blog{background-color: #f7f8fc;}
+.blog a{text-decoration: none;color: inherit}
+.blog .item .img-body{overflow: hidden; }
+.blog .main-body .item img{transition: all 0.7s ease }
+.blog .item {
+    text-align: left; 
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0px rgba(0, 0, 0, 0.19); 
+}
+.blog .item .info {padding: 22px 20px 15px 20px;background-color: white; }
+.blog .item .info h3{font-size: 19px;font-weight: bold}
+.blog .item .info a{text-decoration: none}
+.blog .item .info a.read{ font-weight: bold}
+.blog .item img{width: 100%; height: 265px}
+.blog .item .info .icons{  margin-top: 30px;}
+.blog .item .info .icons span{  color: #9D9D9D;  margin-right: 50px;}
+/* blog */
+
+/*contact*/
+.contact .image img{width: 47%;margin-top: 18px;}
+.contact section{position: relative;}
+.contact section .risk{
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    line-height: 54px;
+    right: 25px;
+    display: none
+}
+.contact input,.message{   
+    margin-bottom: 25px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    outline: none;
+}
+.contact input::placeholder{text-transform: capitalize}
+.contact .message{
+padding-bottom: 150px;
+resize: none;
+}
+.contact .my-button{outline: none}
+/*contact*/
+
+/*footer*/
+.footer{background-color: #f7f8fc; padding: 29px 0px 10px 0px;}
+.footer p {text-transform: capitalize; text-align: center}
+/*footer*/
